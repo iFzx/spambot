@@ -9,7 +9,7 @@ setInterval(function() {
 channel.send(`i do spam of shit for credits..`);
 }, 30)
 })
-*/
+
 
  client.on('message', message => {
   if(!message.channel.guild) return;
@@ -23,5 +23,6 @@ m.sendMessage(args)
 })
 }
 });
+*/
 
 client.login(process.env.BOT_TOKEN);
